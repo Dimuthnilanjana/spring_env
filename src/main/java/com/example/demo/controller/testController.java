@@ -18,8 +18,8 @@ public class testController {
         return "Hello from Under World!";
     }
 
-    @GetMapping("/greet/{name}")
-    public String greetName(@PathVariable String name) {
-        return "Hello, " + name + "!";
-    }
+//    @GetMapping("/greet/{name}")
+//    public String greetName(@PathVariable String name) {
+//        return "Hello, " + name + "!";
+//    }
 }
